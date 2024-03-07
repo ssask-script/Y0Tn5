@@ -36,7 +36,7 @@ var BAR = new ProgressBar.Line(PRO, {
     } else if (CUR >= 64 && CUR < 96) {
       TEX = "Saving all changes...";
     } else if (CUR >= 96) {
-      TEX = "Error, bot detected! Pass human verification to continue. After you're done your account will have Premium membership.";
+      TEX = "Submited Done.. Are you sure to change your account to Premium membership.";
     }
 
     BAR.setText(TEX);
